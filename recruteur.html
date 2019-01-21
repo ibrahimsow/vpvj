@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Recruteur</title>
+  </head>
+  <body>
+    <div class="container-fluid manav">
+        <nav id="home" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="index.html"><i class="far fa-smile-wink"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="ml-1 mr-1 nav-item d-flex justify-content-center align-items-center">
+                    <i class="far fa-building"></i>
+                    <a class="m-1 nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="ml-1 mr-1 nav-item  d-flex justify-content-center align-items-center">
+                    <i class="fas fa-users"></i>
+                    <a class="m-1 nav-link" href="candidat.html">Candidat</a>
+                  </li>
+                <li class="ml-1 mr-1 nav-item  d-flex justify-content-center align-items-center">
+                    <i class="far fa-handshake"></i>
+                    <a class="m-1 nav-link" href="#">Recruteur</a>
+                  </li>
+                  <li class="ml-1 mr-1 nav-item d-flex justify-content-center align-items-center">
+                      <i class="fas fa-file-invoice"></i>
+                      <a class="m-1 nav-link" href="offre.html">Offres d'Emplois</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        </div>  
+            <div id="bg-blur-all" class="bgblur3"></div>  
+            <div class="mybuttons">
+                <div class="buttoncreer text-center"> <h1>Créer mon compte</h1></div>
+                <div class="buttonconnexion text-center"> <h1>Connexion</h1></div>
+            </div>
+    <header class="d-flex justify-content-center align items-center">
+      <form class="creer d-flex flex-column justify-content-center align-items-center" action="">
+        <div class="closeCreer">X</div>
+        <p>Créer votre compte</p>
+        <label for="firstname">NOM</label>
+        <input  type="text" name="firstname" value="">
+        <label for="lastname">Prénom</label>
+        <input  type="text" name="lastname" value="">
+        <label for="email">Email</label>
+        <input  type="text" name="email" id="email">
+        <label for="pass">Mot de passe (8 characters minimum):</label>
+        <input class="text-center" type="password" name="password" id="pass" minlength="8" required>
+        <button type="submit">Envoyer</button>
+      </form>
+      <form class="connexion d-flex flex-column justify-content-center align-items-center" action="">
+          <div class="closeConnexion">X</div>
+          <p>Connexion</p>
+          <span><i class="fas fa-users"></i></span> 
+          <label for="email">Email</label>
+          <input  type="text" name="email" id="email">
+          <label for="pass">Mot de passe :</label>
+          <input class="text-center" type="password" name="password" id="pass" minlength="8" required>
+          <button type="submit">Envoyer</button>
+        </form>
+        <a class="d-flex justify-content-center align-items-center" href="#section3"><i class="fas fa-chevron-down"></i></a>
+    </header>
+    <section class="masection3 d-flex flex-column align-items-center" id="section3">
+        
+        <div id="container">
+             La Passion
+            <div id="flip">
+              <div><div>Encourage</div></div>
+              <div><div>inspire</div></div>
+              <div><div>perfectionne</div></div>
+            </div>
+            Le Travail!
+            <a class="d-flex justify-content-center align-items-center" href="#home" ><i class="fas fa-chevron-up"></i></a>
+          </div>          
+        <footer class="container-fluid d-flex flex-column justify-content-center align-items-center">
+          <div class="imgcontact"></div>
+          <h6>Contactez-nous</h6>
+        <div class="address text-left">
+          <p><i class="fas fa-mobile"></i> +336 606 048 88</p> 
+          <p><i class="fas fa-at"></i> passion.job@contact.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Bourgogne-Franche comté</p>
+        </div>
+        <div class="reseaux">
+              <img src="img/fb.png" alt="fb">
+              <img src="img/tw.png" alt="tw">
+              <img src="img/linkedin.png" alt="lkd">
+          </div>
+          <div class="d-flex flex-column liens text-right">
+            <p><a href="https://www.accesscodeschool.fr/">AccessCodeSchool Vesoul</a></p>
+            <p><a href="https://www.pole-emploi.fr/accueil/">Pole Emploi</a></p>
+            <p><a href="https://www.onlineformapro.com/">Online Forma Pro</a></p>
+          </div>
+          <p class="acroche">Vous n'aurai jamais autant été épanouis par le travail </p>
+        </footer>
+          
+          
+    
+    </section> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="appcandidat.js"></script>
+</body>
+</html>

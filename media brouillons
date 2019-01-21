@@ -1,0 +1,49 @@
+MEDIA 
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+body header h1 {
+    position: absolute;
+    top: 22vh;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 43px;
+    box-shadow: 0px 2px 0px #00000021;
+    text-shadow: 1px 2px 1px #00000057;
+    animation-name: title;
+    animation-duration: 2s;
+    /* background-color: #2b71a582; */
+    padding: 5px 50px;
+    color: #ffffffd1;
+}
+body header h2 {
+    max-width: 95vw;
+    position: absolute;
+    top: 65vh;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    text-shadow: 1px 2px 1px #00000057;
+    color: white;
+    font-size: 22px;
+}
+dy header a i {
+    position: absolute;
+    top: 100vh;
+    font-size: 50px;
+    color: #ffffffb5;
+}
+ }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

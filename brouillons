@@ -1,0 +1,229 @@
+header h2 {
+    max-width: 95vw;
+    position: absolute;
+    top: 65vh;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    text-shadow: 1px 2px 1px #00000057;
+    color: white;
+    font-size: 22px;
+}
+dy header a i {
+    position: absolute;
+    top: 100vh;
+    font-size: 50px;
+    color: #ffffffb5;
+}
+
+
+.masection1 {
+            position: relative;
+            top: 100vh;
+            height: 85vh;
+            background-color: white;
+            z-index: 1000;
+            h3 {
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                font-weight: lighter;
+                font-size: 18px;
+                margin: 0px !important;
+                margin-top: 2vh !important;
+                padding: 0px 10px !important;
+            }
+            p {
+                font-size: 15px;
+                margin-top: 5vh;
+                padding: 0px 15px !important;
+            }
+            .mycarousel {
+                height: 35vh;
+                overflow: hidden;
+                margin-top: 5vh;
+            }
+            .carousel-item p {
+                letter-spacing: 5px;
+                font-weight: lighter;
+                height: 7vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .masection2 {
+            height: 165vh;
+            h3 {
+            letter-spacing: 5px;
+            font-weight: lighter;
+            font-size: 30px;
+            padding-top: 0px !important;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .textsection2 {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-weight: lighter;
+            font-size: 12px;
+            margin: 0px !important;
+            width: 100vw;
+            height: 10vh;
+        }
+        .card1 {
+            position: absolute;
+            top: 32vh;
+            left: none;
+            height: 55vh;
+            width: 80vw;
+            background-color: #006cbbba;
+            box-shadow: 5px 5px 3px #00000021;
+            transition: all 2.5s cubic-bezier(0.22, 0.68, 0, 1.2);
+        }
+        h4 {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: bold;
+            font-size: 22px;
+            margin-top: 10px;
+            margin-bottom: -15px;
+            padding: 10px !important;
+            color: white;
+        }
+        h5 {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: lighter;
+            font-size: 12px;
+            margin-top: 10px;
+            padding: 0 10px !important;
+            color: white;
+        }
+        .card1 .imgcard1 {
+            background: url(art.jpg);
+            background-size: cover;
+            height: 35vh;
+            width: 80vw;
+        }
+        .card2 {
+            position: absolute;
+            display: none;
+            top: 102vh;
+            right: none;
+            height: 55vh;
+            width: 80vw;
+            background-color: #00801dc9;
+            box-shadow: 5px 5px 3px #00000021;
+            transition: all 2.5s cubic-bezier(0.22, 0.68, 0, 1.2);
+        }
+        h4 {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: bold;
+            font-size: 22px;
+            margin-top: 10px;
+            margin-bottom: -15px;
+            padding: 10px !important;
+            color: white;
+        }
+        h5 {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: lighter;
+            font-size: 12px;
+            margin-top: 10px;
+            padding: 0 10px !important;
+            color: white;
+        }
+        .f-left a {
+            text-decoration: none;
+            position: absolute;
+            top: 91vh;
+            transform: rotate(90deg);
+            margin-left: 25px;
+        }
+        .f-right a {
+            text-decoration: none;
+            position: absolute;
+            top: 91vh;
+            transform: rotate(90deg);
+        }
+    }
+    .masection3 {
+        position: relative;
+        top: 93vh;
+        height: 100vh;
+        background-color: white;
+        background-size: cover;
+        z-index: 1000;
+        text-align: center;
+        margin: 0 !important;
+        #flip {
+            height: 30px;
+            overflow: hidden;
+        }
+        #container {
+            color: #999;
+            text-transform: uppercase;
+            font-size: 22px;
+            font-weight: bold;
+            padding-top: 12vh;
+            letter-spacing: 5px;
+            position: relative;
+            width: 100%;
+            top: 0vh;
+            margin-bottom: 4vh;
+            display: block;
+        }
+        footer {
+            height: 100vh;
+            h6 {
+                position: absolute;
+                width: 100%;
+                bottom: 57vh;
+                font-size: 33px;
+                color: #999;
+                font-weight: 200;
+            } 
+            .address {
+                position: absolute;
+                top: 67vh;
+                left: none;
+                p{
+                    font-size: 13px;
+                }
+            }
+            .reseaux {
+                position: absolute;
+                bottom: 40vh;
+                img {
+                    height: 50px;
+                    width: 55px;
+                    margin: 18px;
+                }
+            }
+            .liens {
+                position: absolute;
+                right: none;
+                top: 80vh;
+                p{
+                    margin: 0;
+                    a{
+                        font-size: 13px;
+                    }
+                }
+            }
+            .acroche {
+                position: absolute;
+                width: 100%;
+                bottom: 20px;
+                font-size: 12px;
+                color: #999;
+                margin-top: 30px;
+            }             
+        }
+        }
+    }
+    

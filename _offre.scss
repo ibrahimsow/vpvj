@@ -1,0 +1,200 @@
+.bgblur4 {
+    background-size: cover;
+    position: fixed;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    z-index: 1;
+    transition: opacity 1s ease-in-out;
+    background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.88)), url(img/bg-offre.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    }
+    .form-inline{
+        position: absolute;
+        top: 20vh;
+        .form-control{
+                width: 30vw; 
+            }
+    }
+.page-offre{
+    position: absolute;
+    z-index: 2;
+    height: 130vh;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+}
+.offrecard{
+    position: absolute;
+    top: 30vh;
+    height: 115vh;
+    width: 70vw;
+    box-shadow: 2px 3px 7px #00000033;
+    background-color: white;
+    overflow: auto;
+    border-radius: .5%;
+    padding: 0px 20px;
+    .categorie{
+        font-size: 25px;
+        padding: 15px;
+        margin: 0;
+    }
+    .offre-emploi{
+        font-size: 25px;
+        padding: 15px;
+        margin: 0;
+        
+    }
+}    
+.offre-pdf{
+    img{
+        // border-top: solid #007bff 2px;
+        // border-left: solid #007bff 2px;
+        // border-right: solid #007bff 2px;
+        width: 100%;
+        border-radius: .5%;
+    }
+}
+.footer-offre{
+    position: relative;
+    top: 155vh;
+    height: 100vh;
+    background-color:white;
+    background-size: cover;
+    z-index: 1000;  
+    text-align: center;
+    a{
+        text-decoration: none;
+        
+       i{
+            font-size: 50px; 
+            color: #2b71a5;
+            padding-top: 3vh;
+        }
+    }
+
+    #container {
+        color: #999;
+        text-transform: uppercase;
+        font-size: 47px;
+        font-weight: bold;
+        padding-top: 10vh;
+        letter-spacing: 5px;
+        position: relative; 
+        width: 100%;
+        bottom: 0%;
+        display: block;
+        // margin-bottom: 50px;
+        height: 50vh;
+    
+      }
+      
+      #flip {
+        height:70px;
+        overflow:hidden;
+      }
+       
+      #flip > div > div {
+        color: #fff;
+        padding: 0px 30px;
+        height: 67px;
+        margin-bottom: 22px;
+        display: inline-block;
+      }
+      
+      #flip div:first-child {
+        animation: show 5s linear infinite;
+      }
+      
+      #flip div div {
+        background:#42c58a;
+      }
+      #flip div:first-child div {
+        background:#2b71a5;
+      }
+      #flip div:last-child div {
+        background:#DC143C;
+      }
+      
+      @keyframes show {
+        0% {margin-top:-270px;}
+        5% {margin-top:-180px;}
+        33% {margin-top:-180px;}
+        38% {margin-top:-90px;}
+        66% {margin-top:-90px;}
+        71% {margin-top:0px;}
+        99.99% {margin-top:0px;}
+        100% {margin-top:-270px;}
+      }
+      h6{
+        position: absolute;
+        width:100%;
+        bottom:35vh;
+        font-size:2rem;
+        color:#999;
+        font-weight: 3rem;
+        &:hover{
+            color: white;
+        }
+      } 
+      .address{
+        position: absolute; 
+        left: 10vw;
+          p{
+        font-size: 1rem;
+        color:#999; 
+        &:hover{
+            color: white;
+        }
+    }
+      }
+      .reseaux{
+          position: absolute;
+          bottom: 15vh;
+          img{
+              height: 60px;
+              width: 65px;
+              margin: 30px;
+          }
+      }
+      .liens{
+        position: absolute; 
+        right: 10vw;
+        p{
+          a{
+              text-decoration: none;
+              color:#999; 
+              &:hover{
+                  color: white;
+              }
+            }
+          }
+      }
+      
+      .acroche {
+        position: absolute;
+        width:100%;
+        bottom:30px;
+        font-size:12px;
+        color:#999;
+        margin-top:30px;
+      }
+      .imgcontact{
+        background: url(img/contact.jpeg) no-repeat center;
+        height: 100vh;
+        width: 100vw;
+        opacity: 0.15;
+      }
+      footer{
+
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        background-color: #000000;
+        text-align: center;
+      }   
+    }
+       
